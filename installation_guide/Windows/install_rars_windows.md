@@ -6,9 +6,18 @@ Before installing RARS on Windows, make sure you have the following requirements
 - **Java Runtime Environment (JRE) or Java Development Kit (JDK)** installed.
 - **RARS JAR file**, which is included in this folder.
 
+You can use the following files provided in this folder:
+- `jre-8u441-windows-x64.exe` → Java Runtime Environment (JRE) version 8.
+- `rars_3897cfa.jar` → RARS simulator.
+
+Alternatively, you can download the latest versions from:
+- [Oracle Java](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.org/).
+- [RARS GitHub Repository](https://github.com/TheThirdOne/rars).
+
 ## Installation Steps
 1. **Install Java**
-   - If you don't have Java installed, download and install it from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.org/).
+   - Run `jre-8u441-windows-x64.exe` from this folder and complete the installation.
+   - If you prefer a different version, download and install it from the links above.
    - Verify installation by running the following command in Command Prompt:
      ```sh
      java -version
@@ -17,10 +26,10 @@ Before installing RARS on Windows, make sure you have the following requirements
 
 2. **Run RARS**
    - Open a Command Prompt (CMD) or PowerShell.
-   - Navigate to the folder where the `rars.jar` file is located.
+   - Navigate to the folder where `rars_3897cfa.jar` is located.
    - Run RARS using the following command:
      ```sh
-     java -jar rars.jar
+     java -jar rars_3897cfa.jar
      ```
    - The RARS GUI should now open.
 
@@ -37,9 +46,18 @@ Before installing RARS on Windows, make sure you have the following requirements
 - **محیط اجرای جاوا (JRE) یا کیت توسعه جاوا (JDK)** نصب شده باشد.
 - **فایل JAR مربوط به RARS** که در این پوشه موجود است.
 
+شما می‌توانید از فایل‌های زیر که در این پوشه قرار داده شده‌اند استفاده کنید:
+- `jre-8u441-windows-x64.exe` → نسخه ۸ محیط اجرای جاوا.
+- `rars_3897cfa.jar` → شبیه‌ساز RARS.
+
+همچنین، می‌توانید نسخه‌های جدیدتر را از لینک‌های زیر دریافت کنید:
+- [Oracle Java](https://www.oracle.com/java/technologies/javase-downloads.html) یا [OpenJDK](https://openjdk.org/).
+- [مخزن گیت‌هاب RARS](https://github.com/TheThirdOne/rars).
+
 ## مراحل نصب
 1. **نصب جاوا**
-   - اگر جاوا روی سیستم شما نصب نیست، آن را از [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html) یا [OpenJDK](https://openjdk.org/) دانلود و نصب کنید.
+   - فایل `jre-8u441-windows-x64.exe` را از این پوشه اجرا کنید و مراحل نصب را کامل کنید.
+   - اگر نسخه دیگری را ترجیح می‌دهید، آن را از لینک‌های بالا دانلود و نصب کنید.
    - برای بررسی نصب، دستور زیر را در Command Prompt اجرا کنید:
      ```sh
      java -version
@@ -48,10 +66,10 @@ Before installing RARS on Windows, make sure you have the following requirements
 
 2. **اجرای RARS**
    - Command Prompt (CMD) یا PowerShell را باز کنید.
-   - به پوشه‌ای که فایل `rars.jar` در آن قرار دارد، بروید.
+   - به پوشه‌ای که فایل `rars_3897cfa.jar` در آن قرار دارد، بروید.
    - دستور زیر را اجرا کنید:
      ```sh
-     java -jar rars.jar
+     java -jar rars_3897cfa.jar
      ```
    - پنجره RARS باید باز شود.
 
