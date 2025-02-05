@@ -1,18 +1,4 @@
 
-```markdown
-# RARS Installation and Usage Guide for Linux
-
-<div dir="ltr">
-
-## RARS Installation and Usage Guide for Linux
-
-RARS (RISC-V Assembler and Runtime Simulator) is an assembler and simulator for the RISC-V architecture. You can write and execute RISC-V assembly programs with the ability to step through them and observe the results.
-
-## Installation Instructions
-
-Follow these steps to install Java and RARS on your Linux system:
-
-### Step 1: Install Java
 
 Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:
 ```bash
