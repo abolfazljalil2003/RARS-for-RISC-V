@@ -1,77 +1,114 @@
+برای اینکه متن فارسی در فایل README.md به درستی و با خوانایی مناسب نمایش داده شود، می‌توانید از ویژگی‌های CSS برای تنظیم جهت متن استفاده کنید. در GitHub، می‌توانید از تگ‌های HTML همراه با CSS استفاده کنید تا جهت متن را تنظیم کنید. 
+
+در زیر نمونه‌ای از فایل README.md آمده است که شامل متن‌های انگلیسی و فارسی با جهت مناسب برای هر زبان است:
+
+```markdown
 # RARS Installation and Usage Guide for Linux
 
-<div class="english">
-    <h1>RARS Installation and Usage Guide for Linux</h1>
-    <p>RARS (RISC-V Assembler and Runtime Simulator) is an assembler and simulator for the RISC-V architecture. You can write and execute RISC-V assembly programs with the ability to step through them and observe the results.</p>
+<div dir="ltr">
 
-    <h2>Installation Instructions</h2>
-    <p>Follow these steps to install Java and RARS on your Linux system:</p>
+## RARS Installation and Usage Guide for Linux
 
-    <h3>Step 1: Install Java</h3>
-    <p>Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:</p>
-    <pre><code>java --version</code></pre>
-    <p>If Java is not installed, you can install it with the following command:</p>
-    <pre><code>sudo apt install openjdk-8-jdk</code></pre>
-    <p>After installation, verify Java installation by running:</p>
-    <pre><code>java --version</code></pre>
+RARS (RISC-V Assembler and Runtime Simulator) is an assembler and simulator for the RISC-V architecture. You can write and execute RISC-V assembly programs with the ability to step through them and observe the results.
 
-    <h3>Step 2: Install RARS</h3>
-    <p>Download the <b>rars1_6.jar</b> file from the Linux folder of this repository. Once downloaded, you can run RARS by using the following command:</p>
-    <pre><code>java -jar rars1_6.jar</code></pre>
+## Installation Instructions
 
-    <h3>How to Execute RARS</h3>
-    <p>To execute the `rars1_6.jar` file, follow these steps:</p>
-    <ul>
-        <li>Open the terminal and navigate to the folder containing <b>rars1_6.jar</b> using the <code>cd</code> command.</li>
-        <li>Once you're in the correct directory, run the following command:</li>
-        <pre><code>java -jar rars1_6.jar</code></pre>
-        <li>This will launch the RARS application in your terminal or GUI (depending on your setup).</li>
-    </ul>
+Follow these steps to install Java and RARS on your Linux system:
 
-    <h3>How to Use RARS</h3>
-    <p>To write and execute RISC-V programs, follow these steps:</p>
-    <ul>
-        <li>Write your RISC-V assembly program in the Edit window. Use the <code>.text</code> section for code and the <code>.globl main</code> directive to define the main function.</li>
-        <li>Save your program and click the wrench icon (or select <b>Run > Assemble</b>) to assemble your code.</li>
-        <li>To execute the program, click the green arrow. You can step through the instructions using other arrows in the toolbar.</li>
-        <li>The memory and registers are displayed during execution, so you can observe the changes in the program's state.</li>
-    </ul>
+### Step 1: Install Java
+
+Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:
+```bash
+java --version
+```
+If Java is not installed, you can install it with the following command:
+```bash
+sudo apt install openjdk-8-jdk
+```
+After installation, verify Java installation by running:
+```bash
+java --version
+```
+
+### Step 2: Install RARS
+
+Download the **rars1_6.jar** file from the Linux folder of this repository. Once downloaded, you can run RARS by using the following command:
+```bash
+java -jar rars1_6.jar
+```
+
+### How to Execute RARS
+
+To execute the `rars1_6.jar` file, follow these steps:
+1. Open the terminal and navigate to the folder containing **rars1_6.jar** using the `cd` command.
+2. Once you're in the correct directory, run the following command:
+    ```bash
+    java -jar rars1_6.jar
+    ```
+3. This will launch the RARS application in your terminal or GUI (depending on your setup).
+
+### How to Use RARS
+
+To write and execute RISC-V programs, follow these steps:
+1. Write your RISC-V assembly program in the Edit window. Use the `.text` section for code and the `.globl main` directive to define the main function.
+2. Save your program and click the wrench icon (or select **Run > Assemble**) to assemble your code.
+3. To execute the program, click the green arrow. You can step through the instructions using other arrows in the toolbar.
+4. The memory and registers are displayed during execution, so you can observe the changes in the program's state.
+
 </div>
 
-<div class="persian">
-    <h1>راهنمای نصب و استفاده از RARS در لینوکس</h1>
-    <p>RARS (مترجم و شبیه‌ساز زمان اجرا برای معماری RISC-V) ابزاری است که به شما امکان نوشتن و اجرای برنامه‌های اسمبلی RISC-V را می‌دهد. این ابزار به شما اجازه می‌دهد تا برنامه‌های خود را نوشته و گام به گام اجرا کنید تا نتایج آن‌ها را مشاهده کنید.</p>
+---
 
-    <h2>دستورالعمل نصب</h2>
-    <p>برای نصب Java و RARS در سیستم لینوکس خود، مراحل زیر را دنبال کنید:</p>
+<div dir="rtl">
 
-    <h3>مرحله 1: نصب Java</h3>
-    <p>اطمینان حاصل کنید که Java نسخه 8 یا بالاتر روی سیستم شما نصب است. برای بررسی نصب بودن Java، دستور زیر را وارد کنید:</p>
-    <pre><code>java --version</code></pre>
-    <p>اگر Java نصب نیست، می‌توانید با دستور زیر آن را نصب کنید:</p>
-    <pre><code>sudo apt install openjdk-8-jdk</code></pre>
-    <p>پس از نصب، دوباره با دستور زیر نصب بودن Java را بررسی کنید:</p>
-    <pre><code>java --version</code></pre>
+## راهنمای نصب و استفاده از RARS در لینوکس
 
-    <h3>مرحله 2: نصب RARS</h3>
-    <p>فایل <b>rars1_6.jar</b> را از پوشه Linux در این مخزن دانلود کنید. پس از دانلود، برای اجرای RARS دستور زیر را وارد کنید:</p>
-    <pre><code>java -jar rars1_6.jar</code></pre>
+RARS (مترجم و شبیه‌ساز زمان اجرا برای معماری RISC-V) ابزاری است که به شما امکان نوشتن و اجرای برنامه‌های اسمبلی RISC-V را می‌دهد. این ابزار به شما اجازه می‌دهد تا برنامه‌های خود را نوشته و گام به گام اجرا کنید تا نتایج آن‌ها را مشاهده کنید.
 
-    <h3>نحوه اجرای RARS</h3>
-    <p>برای اجرای فایل `rars1_6.jar`، مراحل زیر را دنبال کنید:</p>
-    <ul>
-        <li>ترمینال را باز کرده و به پوشه‌ای که فایل <b>rars1_6.jar</b> در آن قرار دارد بروید، با استفاده از دستور <code>cd</code>.</li>
-        <li>پس از وارد شدن به پوشه صحیح، دستور زیر را وارد کنید:</li>
-        <pre><code>java -jar rars1_6.jar</code></pre>
-        <li>این دستور RARS را در ترمینال یا محیط گرافیکی (بسته به تنظیمات سیستم شما) اجرا می‌کند.</li>
-    </ul>
+## دستورالعمل نصب
 
-    <h3>نحوه استفاده از RARS</h3>
-    <p>برای نوشتن و اجرای برنامه‌های RISC-V مراحل زیر را دنبال کنید:</p>
-    <ul>
-        <li>برنامه اسمبلی RISC-V خود را در پنجره ویرایش بنویسید. از بخش <code>.text</code> برای کد و دستور <code>.globl main</code> برای تعریف تابع اصلی استفاده کنید.</li>
-        <li>برنامه خود را ذخیره کرده و روی آیکون آچار کلیک کنید (یا از گزینه <b>Run > Assemble</b> استفاده کنید) تا کد خود را اسمبل کنید.</li>
-        <li>برای اجرای برنامه، روی پیکان سبز کلیک کنید. می‌توانید برای گام به گام اجرا کردن دستورات از دیگر پیکان‌ها استفاده کنید.</li>
-        <li>در طول اجرا، محتوای حافظه و رجیسترها نمایش داده می‌شود تا تغییرات در وضعیت برنامه را مشاهده کنید.</li>
-    </ul>
+برای نصب Java و RARS در سیستم لینوکس خود، مراحل زیر را دنبال کنید:
+
+### مرحله 1: نصب Java
+
+اطمینان حاصل کنید که Java نسخه 8 یا بالاتر روی سیستم شما نصب است. برای بررسی نصب بودن Java، دستور زیر را وارد کنید:
+```bash
+java --version
+```
+اگر Java نصب نیست، می‌توانید با دستور زیر آن را نصب کنید:
+```bash
+sudo apt install openjdk-8-jdk
+```
+پس از نصب، دوباره با دستور زیر نصب بودن Java را بررسی کنید:
+```bash
+java --version
+```
+
+### مرحله 2: نصب RARS
+
+فایل **rars1_6.jar** را از پوشه Linux در این مخزن دانلود کنید. پس از دانلود، برای اجرای RARS دستور زیر را وارد کنید:
+```bash
+java -jar rars1_6.jar
+```
+
+### نحوه اجرای RARS
+
+برای اجرای فایل `rars1_6.jar`، مراحل زیر را دنبال کنید:
+1. ترمینال را باز کرده و به پوشه‌ای که فایل **rars1_6.jar** در آن قرار دارد بروید، با استفاده از دستور `cd`.
+2. پس از وارد شدن به پوشه صحیح، دستور زیر را وارد کنید:
+    ```bash
+    java -jar rars1_6.jar
+    ```
+3. این دستور RARS را در ترمینال یا محیط گرافیکی (بسته به تنظیمات سیستم شما) اجرا می‌کند.
+
+### نحوه استفاده از RARS
+
+برای نوشتن و اجرای برنامه‌های RISC-V مراحل زیر را دنبال کنید:
+1. برنامه اسمبلی RISC-V خود را در پنجره ویرایش بنویسید. از بخش `.text` برای کد و دستور `.globl main` برای تعریف تابع اصلی استفاده کنید.
+2. برنامه خود را ذخیره کرده و روی آیکون آچار کلیک کنید (یا از گزینه **Run > Assemble** استفاده کنید) تا کد خود را اسمبل کنید.
+3. برای اجرای برنامه، روی پیکان سبز کلیک کنید. می‌توانید برای گام به گام اجرا کردن دستورات از دیگر پیکان‌ها استفاده کنید.
+4. در طول اجرا، محتوای حافظه و رجیسترها نمایش داده می‌شود تا تغییرات در وضعیت برنامه را مشاهده کنید.
+
 </div>
+```
+
