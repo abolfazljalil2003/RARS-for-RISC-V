@@ -1,25 +1,4 @@
-برای اینکه متن فارسی در فایل README.md به درستی و با خوانایی مناسب نمایش داده شود، می‌توانید از ویژگی‌های CSS برای تنظیم جهت متن استفاده کنید. در GitHub، می‌توانید از تگ‌های HTML همراه با CSS استفاده کنید تا جهت متن را تنظیم کنید. 
 
-در زیر نمونه‌ای از فایل README.md آمده است که شامل متن‌های انگلیسی و فارسی با جهت مناسب برای هر زبان است:
-
-```markdown
-# RARS Installation and Usage Guide for Linux
-
-<div dir="ltr">
-
-## RARS Installation and Usage Guide for Linux
-
-RARS (RISC-V Assembler and Runtime Simulator) is an assembler and simulator for the RISC-V architecture. You can write and execute RISC-V assembly programs with the ability to step through them and observe the results.
-
-## Installation Instructions
-
-Follow these steps to install Java and RARS on your Linux system:
-
-### Step 1: Install Java
-
-Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:
-```bash
-java --version
 ```
 If Java is not installed, you can install it with the following command:
 ```bash
