@@ -1,5 +1,5 @@
+# RARS Installation and Usage Guide for Linux
 
-```
 If Java is not installed, you can install it with the following command:
 ```bash
 sudo apt install openjdk-8-jdk
