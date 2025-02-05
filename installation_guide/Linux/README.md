@@ -1,4 +1,4 @@
-# RARS Installation and Usage Guide for Linux
+# RARS Installation and Usage Guide for 
 
 <div class="english">
     <h1>RARS Installation and Usage Guide for Linux</h1>
