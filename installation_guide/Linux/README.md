@@ -1,4 +1,4 @@
-# RARS Installation and Usage Guide for 
+# RARS Installation and Usage Guide for Linux
 
 <div class="english">
     <h1>RARS Installation and Usage Guide for Linux</h1>
@@ -9,22 +9,22 @@
 
     <h3>Step 1: Install Java</h3>
     <p>Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:</p>
-    <code>java --version</code>
+    <pre><code>java --version</code></pre>
     <p>If Java is not installed, you can install it with the following command:</p>
-    <code>sudo apt install openjdk-8-jdk</code>
+    <pre><code>sudo apt install openjdk-8-jdk</code></pre>
     <p>After installation, verify Java installation by running:</p>
-    <code>java --version</code>
+    <pre><code>java --version</code></pre>
 
     <h3>Step 2: Install RARS</h3>
     <p>Download the <b>rars1_6.jar</b> file from the Linux folder of this repository. Once downloaded, you can run RARS by using the following command:</p>
-    <code>java -jar rars1_6.jar</code>
+    <pre><code>java -jar rars1_6.jar</code></pre>
 
     <h3>How to Execute RARS</h3>
     <p>To execute the `rars1_6.jar` file, follow these steps:</p>
     <ul>
         <li>Open the terminal and navigate to the folder containing <b>rars1_6.jar</b> using the <code>cd</code> command.</li>
         <li>Once you're in the correct directory, run the following command:</li>
-        <code>java -jar rars1_6.jar</code>
+        <pre><code>java -jar rars1_6.jar</code></pre>
         <li>This will launch the RARS application in your terminal or GUI (depending on your setup).</li>
     </ul>
 
@@ -47,22 +47,22 @@
 
     <h3>مرحله 1: نصب Java</h3>
     <p>اطمینان حاصل کنید که Java نسخه 8 یا بالاتر روی سیستم شما نصب است. برای بررسی نصب بودن Java، دستور زیر را وارد کنید:</p>
-    <code>java --version</code>
+    <pre><code>java --version</code></pre>
     <p>اگر Java نصب نیست، می‌توانید با دستور زیر آن را نصب کنید:</p>
-    <code>sudo apt install openjdk-8-jdk</code>
+    <pre><code>sudo apt install openjdk-8-jdk</code></pre>
     <p>پس از نصب، دوباره با دستور زیر نصب بودن Java را بررسی کنید:</p>
-    <code>java --version</code>
+    <pre><code>java --version</code></pre>
 
     <h3>مرحله 2: نصب RARS</h3>
     <p>فایل <b>rars1_6.jar</b> را از پوشه Linux در این مخزن دانلود کنید. پس از دانلود، برای اجرای RARS دستور زیر را وارد کنید:</p>
-    <code>java -jar rars1_6.jar</code>
+    <pre><code>java -jar rars1_6.jar</code></pre>
 
     <h3>نحوه اجرای RARS</h3>
     <p>برای اجرای فایل `rars1_6.jar`، مراحل زیر را دنبال کنید:</p>
     <ul>
         <li>ترمینال را باز کرده و به پوشه‌ای که فایل <b>rars1_6.jar</b> در آن قرار دارد بروید، با استفاده از دستور <code>cd</code>.</li>
         <li>پس از وارد شدن به پوشه صحیح، دستور زیر را وارد کنید:</li>
-        <code>java -jar rars1_6.jar</code>
+        <pre><code>java -jar rars1_6.jar</code></pre>
         <li>این دستور RARS را در ترمینال یا محیط گرافیکی (بسته به تنظیمات سیستم شما) اجرا می‌کند.</li>
     </ul>
 
