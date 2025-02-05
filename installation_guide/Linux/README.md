@@ -1,4 +1,4 @@
-
+# RARS Installation and Usage Guide for Linux
 
 Make sure you have Java 8 or higher installed on your system. To verify if Java is installed, run the following command:
 ```bash
