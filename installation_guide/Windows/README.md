@@ -1,5 +1,6 @@
 <div dir="ltr">
-# RARS Installation on Windows
+ <li><data value="1001">install rars on windows</data></li>
+
 
 ## Requirements
 Before installing RARS on Windows, make sure you have the following requirements:
