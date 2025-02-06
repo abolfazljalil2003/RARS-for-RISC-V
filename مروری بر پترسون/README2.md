@@ -1,4 +1,4 @@
-```markdown name=README.md
+
 # کامپیوتر چیست؟
 
 <div dir="rtl">
