@@ -1,0 +1,3 @@
+مروری بر کتاب <a href="https://www.youseficlass.ir/wp-content/uploads/2023/07/Computer-Organization-and-Design-RISC-V-edition_youseficlass.pdf">Computer Organization and Design RISC-V</a>
+
+ادامه مباحث در حال بارگذاری میباشد ...
