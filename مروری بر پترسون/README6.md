@@ -64,7 +64,7 @@ sum_even(n):
     else:
         return n + sum_even(n-2)
 ```
-
+<div dir="ltr">
 ### 💻 کد RISC-V
 
 ```assembly
@@ -141,7 +141,7 @@ sum_even(8)
     
 Result: 8 + 6 + 4 + 2 = 20
 ```
-
+</div>
 ### ✅ تست
 
 ```assembly
